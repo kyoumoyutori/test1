@@ -33,3 +33,14 @@ git push origin add-new-file
 gem install sintra bundler
 bundle
 
+-------- heroku deploy --------
+#git init git add
+#git commit -m "hello heroku commit"
+
+
+git clone https://github.com/ruby-getting-started.git
+cd ruby-getting-started
+
+heroku create
+git push heroku master
+heroku open
